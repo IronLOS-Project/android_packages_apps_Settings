@@ -163,6 +163,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.boxer.Iron.IronSettings;
 import com.boxer.Iron.fragments.system_misc.GamingMode;
+import com.boxer.Iron.external.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -314,6 +315,7 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             GamingMode.class.getName(),
+            OmniJawsSettings.class.getName(),
             IronSettings.class.getName()
     };
 
@@ -357,5 +359,6 @@ public class SettingsGateway {
             Settings.GamingModeActivity.class.getName(),
             // IronOS
             Settings.IronSettingsActivity.class.getName(),
+            Settings.OmniJawsSettingsActivity.class.getName(),
     };
 }
