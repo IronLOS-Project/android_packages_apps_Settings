@@ -244,5 +244,6 @@ public class Settings extends SettingsActivity {
     // IronOS Settings
     public static class IronSettingsActivity extends SettingsActivity {}
     public static class GamingModeActivity extends SettingsActivity {}
+    public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 
 }
