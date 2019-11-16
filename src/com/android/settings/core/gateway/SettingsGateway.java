@@ -162,6 +162,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.boxer.Iron.IronSettings;
+import com.boxer.Iron.fragments.system_misc.GamingMode;
 
 public class SettingsGateway {
 
@@ -312,6 +313,7 @@ public class SettingsGateway {
             InteractAcrossProfilesSettings.class.getName(),
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
+            GamingMode.class.getName(),
             IronSettings.class.getName()
     };
 
@@ -352,6 +354,7 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
             // IronOS
             Settings.IronSettingsActivity.class.getName(),
     };
