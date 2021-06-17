@@ -90,4 +90,6 @@
         <item quantity="other">%d apps locked</item>
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+
+    <string name="ironlos_version">IronLOS-version</string>
 </resources>
