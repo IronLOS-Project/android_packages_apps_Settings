@@ -27,7 +27,15 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java",
+           "Boxer/**/*.java",
+    ],
+
+    resource_dirs: ["res",
+                    "Boxer/res"
+    ],
+
+    aaptflags: ["--extra-packages com.boxer.Iron"],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",

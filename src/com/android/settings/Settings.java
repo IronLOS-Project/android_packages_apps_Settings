@@ -240,4 +240,7 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    // IronOS Settings
+    public static class IronSettingsActivity extends SettingsActivity {}
+
 }
