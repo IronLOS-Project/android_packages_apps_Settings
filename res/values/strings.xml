@@ -12227,4 +12227,8 @@
     <string name="bluetooth_connect_access_dialog_negative">Don\u2019t connect</string>
     <!-- Strings for Dialog connect button -->
     <string name="bluetooth_connect_access_dialog_positive">Connect</string>
+
+    <!-- Iron -->
+    <string name="shapeshifter_title">Iron</string>
+    <string name="iron_activity_summary">Customize your device</string>
 </resources>
