@@ -54,4 +54,13 @@
         android:title="@string/unlock_scramble_pin_layout_title"
         android:summary="@string/unlock_scramble_pin_layout_summary" />
 
+    <!-- Fp wake unlock -->
+    <ListPreference
+        android:key="fp_wake_unlock"
+        android:title="@string/fp_wake_unlock_title"
+        android:summary="%s"
+        android:entries="@array/fp_wake_unlock_preference_titles"
+        android:entryValues="@array/fp_wake_unlock_preference_titles"
+        settings:controller="com.android.settings.security.screenlock.FpWakeUnlockSelectorController"/>
+
 </PreferenceScreen>
